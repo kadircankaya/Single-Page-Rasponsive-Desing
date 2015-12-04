@@ -1,0 +1,209 @@
+@import url(http://fonts.googleapis.com/css?family=Crete+Round); /* Navbar font */
+@import url(http://fonts.googleapis.com/css?family=Vast+Shadow); /* Jumbotron font */
+@import url(http://fonts.googleapis.com/css?family=Source+Serif+Pro); /* Bodu font */
+
+
+/* Navbar
+__________________________________________________-*/
+
+nav {
+	width: 100%;
+	max-height: 40px;
+	border-bottom: 4px solid #cd8c5d;	
+	position: fixed;
+	background-color: white;
+	z-index: 9999;
+}
+
+.navbar {
+	list-style-type: none;
+	text-align: right;
+	margin-top: 10px;
+	display: block;
+}
+
+.navbar a{
+	text-decoration: none;
+	color: #750809;
+	display: inline;
+	font-family: 'Crete Round', serif;
+}
+
+.navbar a:hover {
+	color: #cd8c5d;
+}
+
+.navbar  li {
+	display: inline;
+	padding-left: 20px;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+.side {
+	float: right;
+	position: static;
+	margin-right: -120px;
+
+}
+
+.sideMenu {
+	position: relative;
+	display: inline-block;
+	text-align: right;
+	border: 3px solid #cd8c5d;;
+	border-radius: 3px;
+	padding: 2px;
+	margin-top: 3px;
+
+}
+
+.sideMenu li{
+		display: inline;
+		margin: 0 auto;
+		text-align: right;		
+}
+
+.toggle {
+	color: #cd8c5d;
+}
+
+.menu ul {
+	border-top: 1px solid black;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu li {
+	border-bottom: 1px solid silver;
+	line-height: 40px;
+	padding-bottom: 3px;
+	padding-left: 20px;
+	padding-top: 3px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #750809;
+	display: inline;
+	font-family: 'Crete Round', serif;
+}
+
+.close {
+	cursor: pointer;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.close a {
+	cursor: pointer;
+	color: white;
+	line-height: 45px;
+	padding-bottom: 3px;
+	padding-left: 20px;
+	padding-top: 3px;
+}
+
+.menu {
+	background:white repeat left top;
+	left: -133px;
+	height: 100%;
+	position: fixed;
+	width: 130px;
+	z-index: 999;
+	border-right: 3px solid #cd8c5d;
+}
+
+
+/* Jumbotron
+__________________________________________________-*/
+
+.jumbotron {
+	background-image: url(http://www.beatmagazinesa.co.za/wp-content/uploads/2015/01/coffee_cup_drink_hd_wallpapers.jpg);
+	min-height: 765px;
+	padding-top: 160px;
+	color: #cd7c6d;
+	font-family: 'Vast Shadow', cursive;
+	box-shadow: 0px 0px 8px 1px black;
+}
+
+.btn {
+	font-family: serif;
+	background: transparent;
+	padding-top: 100px;
+	color: gray;
+}
+
+.btn button {
+	color: gray;
+}
+
+.btn button:hover {
+	background-color: #cd8c5d;
+	color: #750809;
+}
+
+/* body
+__________________________________________________-*/
+
+.whatis {
+	margin-top: 30px;
+	font-family: 'Source Serif Pro', serif;
+}
+
+.discovery {
+	color: #cd8c5d;
+	background-color: black;
+	font-family: 'Source Serif Pro', serif;
+	box-shadow: 0px 0px 8px 1px black;
+	min-height: 700px;
+}
+
+.discovery h3 {
+	color: #841829;
+	padding-top: 100px;
+}
+
+.about {
+	font-family: 'Source Serif Pro', serif;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.about h2 {
+	padding-top: 60px;
+}
+
+.contact {
+	font-family: 'Source Serif Pro', serif;
+	background-color: #cd8c5d;
+}
+
+.contact  {
+	padding-top: 100px;
+	box-shadow: 0px 0px 8px 1px black;
+}
+
+.contact textarea {
+	max-width: 300px;
+	max-height: 350px;
+}
+
+.contact input {
+	width: 300px;
+	color: black;
+}
+
+footer {
+	color: gray;
+	font-style: arial;
+	font-size: 12px;
+	background-color: black;
+	box-shadow: 0px 0px 8px 1px black;
+	max-height: 18px;
+	text-align: center;
+}
+
+
+
